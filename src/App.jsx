@@ -8,8 +8,6 @@ function App() {
   const baseUrl = 'https://cataas.com/'
   const [cat, setCat] = useState(baseUrl + 'cat')
   
-
-
   // Request a random cat from server and set cat state variable
   function getCat() {
     axios.get('http://localhost:3000/getCat')
